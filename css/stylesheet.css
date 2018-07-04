@@ -1,0 +1,279 @@
+
+/*all your initial styles go here..*/
+body {
+    width:;
+}
+ 
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+ 
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+ 
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+ 
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+ 
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+
+
+
+
+.showcase{
+    background: url("../css/nahin.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    
+    }
+
+
+
+.col_sm_books {
+     background-image: url("booksstackofthree.png"); 
+     } 
+
+
+.books{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: ;
+}
+
+.diploma{
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.blackboard{
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.case {
+
+    background: white;
+    
+
+}
+
+.card { 
+    
+   margin-top: 40px;
+   margin-bottom: 100px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.text{
+    text-align: center;
+}
+
+.dareal{
+   
+    
+  }
+
+  .img{
+   
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+
+  h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #8fbc54;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.testi{
+    background: white;
+}
+
+.obrigado{
+    background: url("../css/jeje.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+.carousel .slide{
+
+     
+
+}
+
+footer{
+	background-color: white;
+	padding:30px 0px;
+}	       
+
+.logo{
+   color:#FFF;
+   font-weight:700;
+   font-size:30px;
+}
+
+.address span , .menu span{
+  color: black; 
+  font-weight: bold; 
+  border-bottom: 1px solid #c7c7c7; 
+  padding:10px 0px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.address li a , .menu li a{
+   color: black;
+   letter-spacing: 3px;
+   text-decoration:none;
+   font-size:14px;
+}
+
+.address li, .menu li{
+   margin:20px 0px;
+   list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+   color: black;
+   -webkit-transition: all 1s ease-in-out;
+   -moz-transition: all 1s ease-in-out;
+   -o-transition: all 1s ease-in-out;
+   transition: all 1s ease-in-out;
+}
+
+.address .fas{
+   color: #da3e44;
+   margin-right: 10px;
+   font-size:18px;
+}
+
+.address .fab{
+	color: #da3e44;
+	margin-right: 10px;
+	font-size:18px;
+ }
+
+.address .fa{
+	color: #da3e44;
+	margin-right: 10px;
+	font-size:18px;
+ }
+ 
+ .img .thumbnail{
+
+    height
+	 
+ }
+ 
+
+
